@@ -1,4 +1,4 @@
-### 📌 First
+## 📌 First
 
 👉🏻 fork (잊지마!)
 👉🏻 clone
@@ -11,7 +11,9 @@ git add .
 git commit -m “커밋 메시지”
 ```
 
-### 📌 Eslint, Prettier 설정
+<br />
+
+## 📌 Eslint, Prettier 설정
 
 👉🏻 먼저 eslint설정
 
@@ -43,7 +45,7 @@ npm i -D eslint-config-prettier eslint-plugin-prettier prettier
 - `prettierrc`
   <br/>
 
-### 📌 gitignore, npmrc설정
+## 📌 gitignore, npmrc설정
 
 👉🏻 아래 파일들 해당 레포에서 복붙
 
