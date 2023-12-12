@@ -5,3 +5,4 @@ package.json
 .eslintrc.cjs
 .prettier
 .prettierignore
+.DS_Store
