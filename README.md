@@ -43,7 +43,8 @@ npm i -D eslint-config-prettier eslint-plugin-prettier prettier
 - `eslintrc.cjs`
 - `.prettierignore`
 - `prettierrc`
-  <br/>
+
+<br/>
 
 ## 📌 gitignore, npmrc설정
 
@@ -58,3 +59,25 @@ engines=node@14.x (버전사용해야할때)
 engines.node>=18.17.1 (이상일때)
 18.17.1 (특정버전일때)
 ```
+
+## 📌 폴더구조
+
+- MVC 패턴 적용 시
+
+  - model
+  - view (outputView, inputView)
+  - controller
+  - utils
+  - exceptions (CustomError.js 설정)
+  - validators
+  - constants (error.js 설정)
+    <br/>
+
+- 이외 경우
+  - constants (error.js 설정)
+  - controller
+  - domain
+  - exceptions (CustomError.js 설정)
+  - validators
+  - view (outputView, inputView)
+  - utils
