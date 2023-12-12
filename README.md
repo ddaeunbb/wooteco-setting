@@ -81,3 +81,29 @@ engines.node>=18.17.1 (이상일때)
   - validators
   - view (outputView, inputView)
   - utils
+
+<br/>
+
+## 📌 파라미터 타입
+
+- 클래스 Definition
+
+```js
+/**
+ * @classdesc 캐셔
+ * 손님의 날짜와 메뉴에 해당하는 할인 금액을 계산한다.
+ */
+```
+
+- 파라미터 및 리턴 값 타입
+
+```js
+/**
+ * @param {string} date
+ */
+
+/**
+ * 총 할인 금액 리턴
+ * @return {number}
+ */
+```
