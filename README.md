@@ -151,3 +151,13 @@ const REGEX_ALPHA = /^[a-zA-Z]+$/;
 ```js
 const REGEX_SPACE = /\s/;
 ```
+
+<br/>
+
+- 천원 단위로 쉼표 찍어주는 정규식
+
+```js
+const REGEX_THOUSAND = /\B(?=(\d{3})+(?!\d))/g;
+const num = 123456;
+num.toString().replace(REGEX_THOUSAND, ',');
+```
