@@ -28,6 +28,8 @@ module.exports = {
     // class 내부 요소들 공백라인 여부
     'lines-between-class-members': 'off',
     // if에서 return문 사용 시, else문 사용불가
-    'no-else-return': 'error'
+    'no-else-return': 'error',
+    // 함수의 매개변수가 3개 이상이면 에러 발생
+    'max-params' : ['error', 3],
   },
 };
